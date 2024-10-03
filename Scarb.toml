@@ -1,0 +1,22 @@
+[package]
+cairo-version = "=2.7.0"
+name = "dojo_starter"
+version = "0.1.0"
+
+[cairo]
+sierra-replace-ids = true
+
+[scripts]
+migrate = "sozo build && sozo migrate apply"
+spawn = "./scripts/spawn.sh"
+move = "./scripts/move.sh"
+
+[dependencies]
+dojo = { git = "https://github.com/dojoengine/dojo", tag = "v1.0.0-alpha.13" }
+
+[[target.dojo]]
+
+[tool.dojo.env]
+rpc_url = "https://api.cartridge.gg/x/coinsweeper/katana"
+account_address = "0x5a25aed1cc38e7391db06bc172d574fbd8f6402de1ae877f1c346dc56f5a59"
+private_key = "0x21c03b1d9e4abcc5b46068838b8987be4dca4d255ab7e4215b451e53cb946e7"
