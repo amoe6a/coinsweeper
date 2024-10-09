@@ -16,8 +16,8 @@ telegram = "https://t.me/dojoengine"
 default = "dojo_starter"
 
 [env]
-rpc_url = "https://api.cartridge.gg/x/coinsweeper/katana"
+rpc_url = "https://api.cartridge.gg/x/coins2/katana"
 # Default account for katana with seed = 0
-account_address = "0x5a25aed1cc38e7391db06bc172d574fbd8f6402de1ae877f1c346dc56f5a59"
-private_key = "0x21c03b1d9e4abcc5b46068838b8987be4dca4d255ab7e4215b451e53cb946e7"
-# world_address = "0x3fc79ccfd72c1450d2ccb73c5c521a7ec68b6c6af0caf96a0f1c39ce58876c8"  # Uncomment and update this line with your world address.
+account_address = "0x72d5be7b8b666caacf595704ec67910ed0d2c229fd8a8e64838850e4a0d05bb"
+private_key = "0x2101883e2a8badd6a42cf6448ec671cb27540b9bdbd7342985ec01d3527608b"
+world_address = "0x53b82f60054b669f3b57d32f2a06fbb6885823fcf8c7ef0732db78e62ebff3c"  # Uncomment and update this line with your world address.
